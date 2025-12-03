@@ -62,8 +62,8 @@ public class TestAuto extends OpMode {
                 .build();
     }
 
-    public void autonomousPathUpdate(){
-        switch (pathState){
+    public void autonomousPathUpdate() {
+        switch (pathState) {
             case 0:
                 follower.followPath(scorePreload);
                 setPathState(1);
